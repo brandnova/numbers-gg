@@ -54,7 +54,10 @@ To use the Number Guessing Game, follow these steps:
 3. Enter your name, select a difficulty, and start guessing!
 
 ![Gameplay Screenshot](./src/assets/images/Screenshot%20(368).png)
-![Gameplay Screenshot](./src/assets/images/Screenshot%20(369).png)
+![Gameplay Screenshot](./src/assets/images/Screenshot%20(371).png)
+
+4. canvas-confetti 🎉🎊!
+
 
 4. You have 2 Hints to help you guess the right answer.
 

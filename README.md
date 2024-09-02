@@ -2,7 +2,8 @@
 
 An interactive and accessible number guessing game built with Vue 3 and Vite. This project demonstrates modern Vue.js practices, including the Composition API, and features a responsive design with full keyboard navigation support.
 
-![Game Interface](./src/assets/images/Screenshot%20(367).png)
+![Game Interface](./src/assets/images/Screenshot%20(372).png)
+![Game Interface](./src/assets/images/Screenshot%20(373).png)
 
 Demo: [View Live Page](https://brandnova.github.io/numbers-gg/).
 

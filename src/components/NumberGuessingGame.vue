@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center p-4">
+  <div class="min-h-screen bg-gradient-to-r from-blue-400 to-purple-500 flex flex-col items-center justify-center p-4">
+    <Navbar v-if="!gameStarted" />
     <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-md">
       <h1 class="text-3xl font-bold mb-4 text-center text-gray-800">Number Guessing Game</h1>
       
@@ -97,10 +98,14 @@
 </template>
 
 <script>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import confetti from 'canvas-confetti'
+import Navbar from './NavBar.vue'
 
 export default {
+  components: {
+    Navbar
+  },
   setup() {
     const playerName = ref('')
     const difficulty = ref('medium')

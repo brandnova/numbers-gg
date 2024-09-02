@@ -1,15 +1,10 @@
+
 <template>
-  <div>
-    <NumberGuessingGame />
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-import NumberGuessingGame from './components/NumberGuessingGame.vue'
-
 export default {
-  components: {
-    NumberGuessingGame
-  }
+  name: 'App'
 }
 </script>

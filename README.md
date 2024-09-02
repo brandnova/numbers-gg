@@ -4,6 +4,8 @@ An interactive and accessible number guessing game built with Vue 3 and Vite. Th
 
 ![Game Interface](./src/assets/images/Screenshot%20(367).png)
 
+Demo: [View Live Page](https://brandnova.github.io/numbers-gg/).
+
 ## Features
 
 - Three difficulty levels: Easy, Medium, and Hard
